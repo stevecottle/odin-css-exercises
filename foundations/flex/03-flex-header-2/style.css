@@ -9,6 +9,8 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -45,4 +47,12 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.left-side {
+
+}
+
+.right-side {
+
 }
