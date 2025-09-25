@@ -27,6 +27,11 @@ input {
 
 /* /////////////// !!! My code: */
 
+a {
+  text-decoration: none;
+  color: rgb(68, 81, 105);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -63,6 +68,12 @@ button {
 }
 
 .footer {
-  background-color: beige;
+  background-color: #eeeeee;
 }
 
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
