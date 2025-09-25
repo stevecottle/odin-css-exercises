@@ -24,3 +24,20 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+
+/* /////////////// !!! My code: */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
