@@ -40,6 +40,10 @@ body {
 
   .header {
     display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 0 16px;
   }
 
   .centre-column {
@@ -50,18 +54,37 @@ body {
 
   .sidebar{
     flex-shrink: 0;
+    padding: 16px;
   }
 
   .card-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+    padding: 48px;
   }
 
   .card {
     width: 300px;
+    padding: 16px;
   }
 
   .footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+  list-style: none;
+}
+
+li {
+  padding: 0 0 16px 0;
+}
